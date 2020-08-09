@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a.post {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+article {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #eee;
+  transition: all ease 500ms;
+  overflow: hidden;
+  padding-left: 170px;
+}
+
+article p,
+article h1 {
+  margin: 0.5rem 0
+}
+
+article img {
+  left: 0;
+  width: auto;
+  margin: 0 5px;
+  position: absolute;
+  border-radius: 5px;
+  max-width: 150px;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+article:hover {
+  box-shadow: 0 5px 15px -7px rgba(100, 100, 100, 0.3);
+}
