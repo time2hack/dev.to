@@ -1,3 +1,11 @@
+# GH Actions to publish on GH Pages
+
+![github-pages](https://github.com/time2hack/dev.to/workflows/github-pages/badge.svg)
+
+Checkout [AutoPublish on GitHub Pages with Github actions](https://time2hack.com/auto-publish-github-pages-github-actions/) for the source inspiration of this repo.
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

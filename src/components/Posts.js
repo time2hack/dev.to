@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import Post from './Post';
 const devTo = 'https://dev.to/api/articles'
 
-
 const Posts = () => {
   const [posts, setPosts] = useState([])
   useEffect(() => {
